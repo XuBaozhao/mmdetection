@@ -19,20 +19,35 @@ a part of the open-mmlab project developed by [Multimedia Laboratory, CUHK](http
 - **Modular Design**
 
   We decompose the detection framework into different components and one can easily construct a customized object detection framework by combining different modules.
+  
+  模块化设计
+我们将检测框架分解为不同的组件，通过组合不同的模块可以很容易地构建定制的对象检测框架。
 
 - **Support of multiple frameworks out of box**
 
   The toolbox directly supports popular and contemporary detection frameworks, *e.g.* Faster RCNN, Mask RCNN, RetinaNet, etc.
 
+支持多种框架开箱即用
+工具箱直接支持流行的和当代的检测框架，如Faster RCNN，Mask RCNN, RetinaNet等。
+
 - **High efficiency**
 
   All basic bbox and mask operations run on GPUs now. The training speed is faster than or comparable to other codebases, including [Detectron](https://github.com/facebookresearch/Detectron), [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark) and [SimpleDet](https://github.com/TuSimple/simpledet).
+  
+  效率高
+所有基本的bbox和mask操作现在都在gpu上运行。训练速度比其他代码库(包括Detectron、maskrcnn-benchmark和SimpleDet)更快或可与之相比。
+  
 
 - **State of the art**
 
   The toolbox stems from the codebase developed by the *MMDet* team, who won [COCO Detection Challenge](http://cocodataset.org/#detection-leaderboard) in 2018, and we keep pushing it forward.
+  
+  技术水平
+这个工具箱来自于MMDet团队开发的代码库，他们在2018年赢得了COCO检测挑战，我们一直在推动它向前发展。
 
 Apart from MMDetection, we also released a library [mmcv](https://github.com/open-mmlab/mmcv) for computer vision research, which is heavily depended on by this toolbox.
+
+除了MMDetection，我们还发布了一个library mmcv for computer vision research，这是这个工具箱非常依赖的。
 
 ## License
 
